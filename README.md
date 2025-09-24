@@ -1,4 +1,8 @@
-# LNDT v1 — Calibration & Certification Framework for Enterprise AI
+
+🚀 README.md — version finale (FR/EN, SEO, DOI Zenodo intégré)
+
+# LNDT v1 — Calibration & Certification Framework for Enterprise AI  
+# LNDT v1 — Cadre d’étalonnage & Certification des IA d’Entreprise
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1234567.svg)](https://doi.org/10.5281/zenodo.1234567)
@@ -7,25 +11,35 @@
 
 ---
 
-## 🔎 About
+## 🔎 About (EN)
 **LNDT v1** (Laboratoire de Normalisation et de Diagnostic Technique) is the **first open-source modular framework** for **benchmarking, calibration, and certification** of Large Language Models (LLMs).
 
-- **Universal Nucleus**: core ethical, regulatory, and compliance rules (RGPD, AI Act, HIPAA).
-- **Domain Packs**: YAML/JSON packs for insurance, healthcare, legal, finance, education.
-- **Governance & Certification**: cryptographic traceability with glyph-address and SHA-256 hashes.
-- **CI/CD Ready**: run validation pipelines in <100 ms.
+- **Universal Nucleus**: ethical, regulatory, and compliance rules (GDPR, AI Act, HIPAA).  
+- **Domain Packs**: YAML/JSON packs for insurance, healthcare, legal, finance, education.  
+- **Governance & Certification**: cryptographic traceability with glyph-address & SHA-256 hashes.  
+- **CI/CD Ready**: integrate validation pipelines in <100 ms.  
 
 ---
 
-## 📂 Repository Structure
-| Folder | Content |
-|--------|---------|
-| `core/` | nucleus.yaml, formats.md, schema.json, LICENSE |
-| `domains/` | sector calibration packs (healthcare, legal, finance, insurance_btp, education) |
-| `tools/` | injecteur.py, validator.py, runner.py |
-| `research/` | taxonomy.md/json, roadmap.md |
-| `docs/` | CONTRIBUTING.md, GOVERNANCE.md, whitepaper-v4.pdf |
-| `README.md` | this file |
+## 🔎 À propos (FR)
+**LNDT v1** (Laboratoire de Normalisation et de Diagnostic Technique) est le **premier cadre open-source modulaire** pour le **benchmarking, l’étalonnage et la certification** des modèles de langage (LLM).
+
+- **Noyau universel** : règles éthiques, réglementaires et de conformité (RGPD, AI Act, HIPAA).  
+- **Packs de domaines** : fichiers YAML/JSON pour l’assurance, la santé, le juridique, la finance, l’éducation.  
+- **Gouvernance & Certification** : traçabilité cryptographique via glyph-address & empreintes SHA-256.  
+- **CI/CD Ready** : intégrez les pipelines de validation en moins de 100 ms.  
+
+---
+
+## 📂 Repository Structure / Structure du Référentiel
+| Folder / Dossier | Content / Contenu |
+|------------------|-------------------|
+| `core/`          | nucleus.yaml, formats.md, schema.json, LICENSE |
+| `domains/`       | sector/domain calibration packs (healthcare, legal, finance, insurance_btp, education) |
+| `tools/`         | injecteur.py, validator.py, runner.py |
+| `research/`      | taxonomy.md/json, roadmap.md |
+| `docs/`          | CONTRIBUTING.md, GOVERNANCE.md, whitepaper-v4.pdf |
+| `README.md`      | this file / ce fichier |
 
 ---
 
@@ -38,17 +52,17 @@ pip install pyyaml jsonschema
 
 ---
 
-🚀 Usage Examples
+🚀 Usage Examples / Exemples d’utilisation
 
-Validate a pack
+Validate a pack (EN)
 
 python tools/validator.py --pack domains/insurance_btp/pack-insurance-btp-v1.yaml
 
-Validate all packs
+Valider un pack (FR)
 
-python tools/runner.py
+python tools/validator.py --pack domains/insurance_btp/pack-insurance-btp-v1.yaml
 
-Example pack (insurance_btp)
+Example Pack (insurance_btp)
 
 type: pack
 pack: "Insurance BTP v1.0"
@@ -67,10 +81,12 @@ prompts:
 
 ---
 
-📜 Whitepaper
+📜 Whitepaper & DOI
 
-Read the full whitepaper (v4) in docs/whitepaper-v4.pdf.
-Also available on Zenodo.
+Full whitepaper available: docs/whitepaper-v4.pdf
+
+DOI Zenodo record: 10.5281/zenodo.1234567
+
 
 
 ---
@@ -99,7 +115,7 @@ Governance model described in docs/GOVERNANCE.md.
 
 ---
 
-📢 References
+📢 References / Références
 
 Institute IA
 
@@ -111,6 +127,42 @@ Zenodo Record
 
 ---
 
-📄 License
+📄 License / Licence
 
 This project is licensed under the MIT License — see the LICENSE file for details.
+Ce projet est distribué sous licence MIT — voir LICENSE.
+
+
+---
+
+🔎 JSON-LD (SEO & AI Indexing)
+
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "LNDT v1 — Calibration & Certification Framework for Enterprise AI",
+  "alternativeHeadline": "Cadre LNDT v1 — Calibration & Certification des IA d’Entreprise",
+  "description": "LNDT v1 is the first open-source framework for enterprise AI benchmarking, calibration, and certification. It provides sector-specific packs for insurance, healthcare, legal, and finance, ensuring compliance with GDPR, HIPAA, ISO/IEC 42001, and the EU AI Act.",
+  "keywords": "Benchmark AI, Enterprise AI calibration, Insurance AI compliance, Healthcare AI regulation, Legal AI certification, Finance AI risk management, GDPR AI calibration, EU AI Act compliance, AI hallucinations mitigation, LNDT open-source framework",
+  "author": {
+    "@type": "Person",
+    "name": "Frédéric Tabary"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Institute IA",
+    "url": "https://institute-ia.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://institute-ia.com/logo.png"
+    }
+  },
+  "datePublished": "2025-09-24",
+  "dateModified": "2025-09-24",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://github.com/Zoran-IA-Mimetique/lndt-calibration-framework"
+  }
+}
+
+---
