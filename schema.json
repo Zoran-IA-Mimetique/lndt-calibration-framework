@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LNDT Schema v1",
+  "type": "object",
+  "properties": {
+    "type": {
+      "enum": [
+        "nucleus",
+        "pack"
+      ]
+    },
+    "version": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+type: pack
+pack: "Education v1"
+version: "1.0.0"
+domain: "education"
+extends_nucleus:
+  id: lndt-nucleus-universel
+  version: "1.0.0"
+prompts:
+- id: edu-001
+  u: "Lingua"
+  q: "Traduis 'La liberté est essentielle' en anglais et espagnol (séparés par ;)"
+  g: "freedom is essential; la libertad es esencial"
+  fmt: "text_sem"

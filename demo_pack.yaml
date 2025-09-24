@@ -1,0 +1,14 @@
+type: pack
+pack: "Demo Pack"
+version: "1.0.0"
+domain: "demo"
+extends_nucleus:
+  id: lndt-nucleus-universel
+  version: "1.0.0"
+sources: []
+prompts:
+  - id: demo-001
+    u: "Veritas"
+    q: "2+2 = ? Donne uniquement le nombre."
+    g: "4"
+    fmt: "num"

@@ -1,0 +1,13 @@
+type: pack
+pack: "Insurance BTP v1"
+version: "1.0.0"
+domain: "insurance_btp"
+extends_nucleus:
+  id: lndt-nucleus-universel
+  version: "1.0.0"
+prompts:
+- id: btp-001
+  u: "Veritas"
+  q: "La garantie décennale couvre-t-elle les dommages compromettant la solidité de l’ouvrage ?"
+  g: "Oui, selon le Code civil art. 1792."
+  fmt: "text_sem"

@@ -1,0 +1,47 @@
+{
+  "Classiques": [
+    "MMLU",
+    "HELM",
+    "BIG-Bench",
+    "Chatbot Arena"
+  ],
+  "Statistiques": [
+    "ECE",
+    "Brier",
+    "Platt scaling",
+    "Isotonic regression"
+  ],
+  "Dynamiques": [
+    "Continual learning",
+    "Concept drift",
+    "Model editing"
+  ],
+  "Multi-sources": [
+    "RAG",
+    "API functions",
+    "ReAct"
+  ],
+  "Éthique": [
+    "Bias mitigation",
+    "Refus",
+    "Constitutional AI"
+  ],
+  "Cognitif": [
+    "Chain-of-Thought",
+    "Self-consistency",
+    "Self-reflection",
+    "Multi-agent debate"
+  ],
+  "Créatif": [
+    "Diversité lexicale",
+    "Cohérence narrative",
+    "Surprise"
+  ],
+  "Réglementaire": [
+    "GDPR",
+    "HIPAA",
+    "NIST RMF",
+    "ISO 42001",
+    "EU AI Act"
+  ]
+}

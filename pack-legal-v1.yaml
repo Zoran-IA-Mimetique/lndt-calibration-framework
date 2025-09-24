@@ -1,0 +1,13 @@
+type: pack
+pack: "Legal v1"
+version: "1.0.0"
+domain: "legal"
+extends_nucleus:
+  id: lndt-nucleus-universel
+  version: "1.0.0"
+prompts:
+- id: leg-001
+  u: "Veritas"
+  q: "Quel article du Code civil traite de la responsabilité délictuelle ?"
+  g: "1240"
+  fmt: "text_sem"

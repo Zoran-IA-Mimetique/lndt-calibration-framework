@@ -1,0 +1,13 @@
+type: pack
+pack: "Finance v1"
+version: "1.0.0"
+domain: "finance"
+extends_nucleus:
+  id: lndt-nucleus-universel
+  version: "1.0.0"
+prompts:
+- id: fin-001
+  u: "Durabilité"
+  q: "Calcule 123*456. Donne le résultat et le temps de calcul en ms."
+  g: "56088"
+  fmt: "num_dur"

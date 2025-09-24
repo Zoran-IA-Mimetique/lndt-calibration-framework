@@ -1,0 +1,5 @@
+Whitepaper LNDT v4
+==================
+
+Placeholder for the official PDF whitepaper.
+Please replace this file with the actual `whitepaper-v4.pdf`.
